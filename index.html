@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="profile.css">
+    <script src="https://kit.fontawesome.com/0e070a32e4.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>my profile</title>
+    <link rel="logo" href="me.jpg">
+</head>
+
+<body>
+
+    <div class="header" id="navbar">
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#profile">PROFILE</a>
+        <a href="#contact">CONTACT</a>
+    </div>
+    <!--home page-->
+    <div class="bg" id="home">
+        <div class="text">PERUMALLA SASANK</div>
+    </div>
+    <div class="footer" id="foot"><a href="#home"><i class="fas fa-space-shuttle fa-rotate-270" id="footer"
+                style="color: white;background: rgb(211, 224, 26);padding: 20px;border-radius: 50%;"></i></a></div>
+    <script>
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                document.getElementById("navbar").style.backgroundColor = "rgb(238,238,238)";
+                document.getElementById("navbar").style.boxShadow = "1px 2px 40px red";
+                document.getElementById("foot").style.display = "block";
+            } else {
+                document.getElementById("navbar").style.backgroundColor = "transparent";
+                document.getElementById("navbar").style.boxShadow = "1px 2px transparent";
+                document.getElementById("foot").style.display = "none";
+            }
+        }
+    </script>
+    <div class="aboutpage" id="about">
+        <div class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <div class="flip-box-front-content">ABOUT</div>
+                </div>
+                <div class="flip-box-back">
+                    <div class="flip-box-back-content">
+                        <table>
+                            <tr>
+                                <td class="content">
+                                    <p>I'm Perumalla Sasank, a second year B.Tech(Information Technology) student at
+                                        Vellore Institute of Technology, Vellore and an alumnus of srichaitanya</p>
+                                    <p>My goals are to focus on web designing, graphic designing and advanced python.
+                                    </p>
+                                </td>
+                                <td>
+                                    <p style="color: black;"><i class="fas fa-user"></i> perumalla sasank</p>
+                                    <img src="me.jpg" width="280px" height="auto" style="border-radius: 20px;">
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="profilepage" id="profile">
+        <div class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <div class="flip-box-front-content">PROFILE</div>
+                </div>
+                <div class="flip-box-back">
+                    <div class="flip-box-back-content">
+                        <table>
+                            <tr>
+                                <td class="container">
+                                    <div class="card">
+                                        <div class="slide-box-up">
+                                            <i class="fab fa-python" style="font-size: 50px;"></i>
+                                            <h3 style="font-size: 25px;">PYTHON</h3>
+                                        </div>
+                                        <div class="slide-box-down">
+                                            <p>Python is an interpreted, high-level,generalpurpose programming language.
+                                                Created by Guido van Rossum and first released in 1991,Python's design
+                                                philosophy emphasizes code readability with its notable use of
+                                                significant whitespace.</p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="container">
+                                    <div class="card">
+                                        <div class="slide-box-up">
+                                            <i class="fab fa-html5" style="font-size: 50px;"></i>
+                                            <h3 style="font-size: 25px;">HTML-5</h3>
+                                        </div>
+                                        <div class="slide-box-down">
+                                            <p>HTML5 is a markup language used for structuring and presenting content on
+                                                the World Wide Web. It is the fifth and latest major version of HTML
+                                                that is a World Wide Web Consortium recommendation</p>
+                                        </div>
+                                    </div>
+                                </td>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="contactpage" id="contact">
+        <div class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <div class="flip-box-front-content">CONTACT</div>
+                </div>
+                <div class="flip-box-back">
+                    <div class="flip-box-back-content">
+                        <table>
+                            <tr>
+                                <td class="containe_r">
+                                    <div class="car_d">
+                                        <div class="slide-box-u_p">
+                                            <i class="fas fa-map-marker-alt" style="font-size: 50px;"></i>
+                                            <h3 style="font-size: 25px;">CONTACT</h3>
+                                        </div>
+                                        <div class="slide-box-dow_n">
+                                            <p>
+                                                <i class="fas fa-map-marker-alt"></i> Guntur,AP<br>
+
+                                                <i class="fas fa-phone-alt"></i> Phone: 9########9<br>
+
+                                                <i class="fas fa-envelope"></i> Email: sasank
+                                            </p>
+                                        </div>
+                                    </div>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td class="forlogos">
+                                    <i class="fab fa-facebook-square"></i>
+                                    <i class="fab fa-instagram"></i>
+                                    <i class="fab fa-snapchat-square"></i>
+                                    <i class="fab fa-github-square"></i>
+                                    <i class="fab fa-twitter-square"></i>
+                                    <i class="fab fa-invision"></i>
+                                    <i class="fab fa-pinterest-square"></i>
+                                </td>
+
+                            </tr>
+                        </table>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="horizontalmove"></div>
+    <script>
+        $(document).ready(function () {
+            var $horizontal = $('.horizontalmove');
+
+            $(window).scroll(function () {
+                var s = $(this).scrollTop(),
+                    d = $(document).height(),
+                    c = $(this).height();
+
+                scrollPercent = (s / (d - c));
+
+                var position = (scrollPercent * ($(document).width() - $horizontal.width()));
+
+                $horizontal.css({
+                    'left': position
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
