@@ -367,3 +367,8 @@ table {
         -10px 0 80px #f0f,
         10px 0 80px #0ff;
 }
+
+.test{
+    min-height:100px;
+    width:100%;
+}
