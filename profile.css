@@ -124,7 +124,8 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
     position: relative;
-    width: 900px;
+    width: calc(100% - 50px);
+    /* width: 900px; */
     height: 500px;
     border: 1px solid #922c2c;
     perspective: 2000px;
